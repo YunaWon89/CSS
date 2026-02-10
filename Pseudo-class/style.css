@@ -1,0 +1,29 @@
+a:link{
+    color: lawngreen;
+    font-size: 100px;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: tomato;
+}
+a:active{
+    color: yellow;
+}
+button:hover{
+    background-color: lightgray;
+}
+button:active{
+    background-color: white;
+}
+li:nth-child(even){
+    background-color: pink;
+}
+li:nth-child(odd){
+    background-color: powderblue;
+}
+
+li:nth-child(5n+2){
+    background-color: yellow;
+}

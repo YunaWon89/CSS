@@ -1,0 +1,24 @@
+#box1{
+    border: 4px solid ;
+    width: 250px;
+    height: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: lightblue;
+
+    transform: translateX(50px); /*peremeshenie na pravo na 50px -50px budet na levo*/
+    transform: translateY(50px); /* perwemeshenie vverh, -50peremeshenie vniz */
+    /*transform: translate(50px,50px); vverh i vniz*/
+    transform: rotateX(180deg);  /* kruchenie   */
+    transform: rotateY(180deg);  /*  */
+    transform: rotateZ(180deg);  /*  */ 
+    transform: scaleX(3);  /* rastyagivanie v shirinu  */
+    transform: scaleY(3);  /* rastyagivanie v dlinu  */
+    transform: scale(2,2);  /* v shirinu i v dlinu  */
+    transform: skewX(45deg);  /* smeshenie poperek  */
+    transform: skewY(45deg); /*smeshenie poperek v druguyu storonu*/
+    transform: skew(20deg.20deg); /*v obe storony*/
+
+    transform: matrix(2, 0, 0, 2, 250, 250); /*1-scaleX, 2-scewY, 3-scewX, 4-scaleY, 5-translateX, 6-traslateY*/
+}
+
